@@ -19,6 +19,13 @@ class BaseMix:
 		# tox is the name of the tox file which should be
 		# located in self.toxStore. The top that is referenced
 		# will be called out1. So self.toxStore.op(tox+'/out1')
+		
+		try:
+			self.toxStore.op(tox).Reset()
+			print("hi")
+		except:
+			#no reset function
+			pass
 	
 		if bank == "topleft":
 			curfade = parent().par.Bankfades1
