@@ -13,12 +13,14 @@ class BaseMix:
 		self.ownerComp = ownerComp
 		self.toxStore = parent.sm.op('base_tox')
 		
-	def Setbank(self, bank, tox):
+	def Setbank(self, bank, tox, store=parent.sm.op('base_tox')):
 		# bank can be:
 		# "topleft", "topright", "bottomleft", "bottomright"
 		# tox is the name of the tox file which should be
 		# located in self.toxStore. The top that is referenced
 		# will be called out1. So self.toxStore.op(tox+'/out1')
+		
+		self.toxStore = store
 		
 		try:
 			self.toxStore.op(tox).Reset()
