@@ -3,6 +3,8 @@ Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigne
 
 [Watch the explanation video](https://www.youtube.com/watch?v=P8iLnwoWyAI)
 
+[Watch the Post FX update explanation video](https://youtu.be/DhKZlpO24m4)
+
 
 ##### How It Works
 
