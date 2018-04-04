@@ -24,7 +24,6 @@ class BaseMix:
 		
 		try:
 			self.toxStore.op(tox).Reset()
-			print("hi")
 		except:
 			#no reset function
 			pass
