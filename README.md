@@ -20,6 +20,11 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ##### Changelog
 
+###### 0.3.6
+
+- If there is no second monitor SimpleMixer will now use /simplemixer/container_outputs "Emulate Output Resolution" parameter.
+- Externalised container_output.
+
 ###### 0.3.5
 
 -  Updated to Experimental 21670
