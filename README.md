@@ -20,6 +20,11 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ##### Changelog
 
+###### 0.4.0
+
+- New Post Effects. Feedback Effect and Tile Effect Added.
+- New Box Matrix TOX.
+
 ###### 0.3.7
 
 - Upgraded to TouchDesigner build 22800.
