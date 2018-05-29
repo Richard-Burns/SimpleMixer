@@ -20,6 +20,15 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ##### Changelog
 
+###### 0.3.7
+
+- Upgraded to TouchDesigner build 22800.
+- BPM + - buttons for adjustment.
+- Clicking the bpm indicator now sets the system timeline to frame 1.
+- bpm_pulse channel added into audioanalysis component.
+- Post Effects will now fade in and out rather than snapping.
+- Post Effects now have opacity sliders. This allows preparing a post effect before sending it to the main output.
+
 ###### 0.3.6
 
 - If there is no second monitor SimpleMixer will now use /simplemixer/container_outputs "Emulate Output Resolution" parameter.
@@ -27,7 +36,7 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ###### 0.3.5
 
--  Updated to Experimental 21670
+- Updated to Experimental 21670
 - Always on top bug has been fixed in TouchDesigner so is re-enabled in SimpleMixer
 - Tested on TouchScreen. All functionality is working but certain buttons could be bigger.
 
