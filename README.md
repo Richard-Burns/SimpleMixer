@@ -20,6 +20,22 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ##### Changelog
 
+###### 0.4.8
+
+Bug Fixes
+- fixed re-initialization issue on toxs.
+
+New Features
+- added in a second pre-viz window. You can now choose between the four visuals in the banks and output. To make the window on the left or right bigger drag the border between the two.
+- Cube matrix now has a colour offset parameter.
+- New cloth TOX.
+- Upgraded to latest version of gal.
+- Right clicking on a bank will now auto switch the Current Visuals parameter window to that particular bank.
+- Clicking on the previz window whilst viewing a particular bank will now switch the Current Visuals parameter window to that particular bank.
+- Save Button.
+
+
+
 ###### 0.4.0
 
 - New Post Effects. Feedback Effect and Tile Effect Added.
