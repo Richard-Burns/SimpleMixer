@@ -20,10 +20,16 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ##### Changelog
 
-###### 0.4.8
+###### 0.5.0
+
+New Features
+- You can now change the levels and hue parameters directly on movie clips.
 
 Bug Fixes
-- fixed re-initialization issue on toxs.
+- Second pre-viz window was broken on last update. This should now be fixed. You can now properly drag the line between the two to resize them.
+- Movie thumbnails should now load properly.
+
+###### 0.4.8
 
 New Features
 - added in a second pre-viz window. You can now choose between the four visuals in the banks and output. To make the window on the left or right bigger drag the border between the two.
@@ -34,6 +40,8 @@ New Features
 - Clicking on the previz window whilst viewing a particular bank will now switch the Current Visuals parameter window to that particular bank.
 - Save Button.
 
+Bug Fixes
+- fixed re-initialization issue on toxs.
 
 
 ###### 0.4.0
