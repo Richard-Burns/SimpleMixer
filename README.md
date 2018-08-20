@@ -20,6 +20,17 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ##### Changelog
 
+###### 0.9.0 - BETA
+
+New Features
+- Gal is gone! We now have a completely new UI system that is both scaleable and MIDI/OSC/Key/UDP/Artnet Mappable.
+- The new settings tab allows you to specify which inputs you are using and customize the highlight colour.
+- Remove mappings in Settings by clicking the "Clear All Mappings" button.
+- Halfway to the 1.0.0 release in which I hope to rebuild the Parameter COMP into a fully mappable system. For now you can use the container setup to map things in.
+
+Notes
+- Would really love it if people could report issues as I imagine there will be quite a few with this build.
+
 ###### 0.5.0
 
 New Features
