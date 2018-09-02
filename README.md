@@ -1,5 +1,5 @@
 # Simple Mixer
-Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in 099 stable build 23120. It should also work in the latest experimental build too.
+Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in 099 stable build 25000. It should also work in the latest experimental build too.
 
 [Watch the explanation video](https://www.youtube.com/watch?v=P8iLnwoWyAI)
 
@@ -19,6 +19,17 @@ For audio analysis the system uses the audioanalysis component created by Greg H
 At the very top of the screen is a tab to switch into mapping mode. Currently this is the standard TouchDesigner stoner however it will likely soon be replaced by a Resolume style poly drawing and warping system. You can also choose an output monitor and toggle the output on and off.
 
 ##### Changelog
+
+###### 0.9.3  - BETA
+
+Bug Fixes
+- Drag Drop can now be avoided by selecting the TOX/Movie you wish to assign and right clicking the bank you want to assign it to. For PostFX you can simply select a bank and then left click the Post Effect you want to apply to it.
+- Movie thumbnails should load properly now (seriousssslllyyy)
+- UI error fixes when there are no secondary monitors present.
+- Clear All Mappings button in settings now actually clears all mappings rather than just erroring.
+
+Things To Note
+- There seems to be an issue with menus loading slowly in some scenarios. This will be addressed in the next version.
 
 ###### 0.9.0 - BETA
 
