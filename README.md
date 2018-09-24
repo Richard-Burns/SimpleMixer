@@ -20,6 +20,13 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ##### Changelog
 
+
+###### 0.9.7
+
+Bug Fixes
+- The drag drop bug workaround broke PostFX dragging. You can now drag to Post FX slots again but right clicking is disabled as drag drop is fixed. SimpleMixer now only works in 25850 ONLY.
+- Menus now have scrollbars so they don't go off the screen if they are too large.
+
 ###### 0.9.3  - BETA
 
 Bug Fixes
