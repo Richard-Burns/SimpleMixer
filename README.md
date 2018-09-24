@@ -1,5 +1,5 @@
 # Simple Mixer
-Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in 099 stable build 25000. It should also work in the latest experimental build too.
+Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in 099 stable build 25850. It should also work in the latest experimental build too.
 
 [Watch the explanation video](https://www.youtube.com/watch?v=P8iLnwoWyAI)
 
