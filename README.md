@@ -21,6 +21,12 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 ##### Changelog
 
 
+###### 0.9.8
+
+New Features
+- Upgraded the TOX preview pane on the bottom right hand side to show Base COMPs as well as panels.
+- The TOX selector grid is now adaptable in size to avoid scrollbars and make everything quickly draggable. (Thanks Dith_Id for that one)
+
 ###### 0.9.7
 
 Bug Fixes
