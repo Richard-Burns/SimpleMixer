@@ -1,9 +1,13 @@
 # Simple Mixer
-Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in 099 stable build 25850. It should also work in the latest experimental build too.
+Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in 099 stable build 26750. It should also work in the latest experimental build too.
 
 [Watch the explanation video](https://www.youtube.com/watch?v=P8iLnwoWyAI)
 
 [Watch the Post FX update explanation video](https://youtu.be/DhKZlpO24m4)
+
+##### Update
+
+SimpleMixer is no longer in development for build 26750. I'm waiting for the next experimental before adding new features as I imagine it'll be a whole new can of worms. I will be bugfixing this version and keeping up to date with official builds bugfix wise so let me know if there's anything needs fixed.
 
 
 ##### How It Works
@@ -20,6 +24,11 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ##### Changelog
 
+###### 1.0.0
+
+Bug Fixes
+- Sliders reverting to 0 should be fixed
+- Right clicking on a bank now reverts to the original functionality of setting that bank as the active parameter window.
 
 ###### 0.9.8
 
