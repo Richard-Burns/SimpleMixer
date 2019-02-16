@@ -11,9 +11,9 @@ class BaseMix:
 	"""
 	def __init__(self, ownerComp):
 		self.ownerComp = ownerComp
-		self.toxStore = parent.sm.op('base_tox')
+		self.toxStore = parent.mara.op('base_tox')
 		
-	def Setbank(self, bank, tox, store=parent.sm.op('base_tox')):
+	def Setbank(self, bank, tox, store=parent.mara.op('base_tox')):
 		# bank can be:
 		# "topleft", "topright", "bottomleft", "bottomright"
 		# tox is the name of the tox file which should be
