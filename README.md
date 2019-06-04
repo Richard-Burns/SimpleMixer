@@ -1,13 +1,9 @@
 # Simple Mixer
-Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in 099 stable build 26750. It should also work in the latest experimental build too.
+Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in 099 stable build 15840.
 
 [Watch the explanation video](https://www.youtube.com/watch?v=P8iLnwoWyAI)
 
 [Watch the Post FX update explanation video](https://youtu.be/DhKZlpO24m4)
-
-##### Update
-
-SimpleMixer is no longer in development for build 26750. I'm waiting for the next experimental before adding new features as I imagine it'll be a whole new can of worms. I will be bugfixing this version and keeping up to date with official builds bugfix wise so let me know if there's anything needs fixed.
 
 
 ##### How It Works
@@ -23,6 +19,16 @@ For audio analysis the system uses the audioanalysis component created by Greg H
 At the very top of the screen is a tab to switch into mapping mode. Currently this is the standard TouchDesigner stoner however it will likely soon be replaced by a Resolume style poly drawing and warping system. You can also choose an output monitor and toggle the output on and off.
 
 ##### Changelog
+
+###### 1.1.0
+
+New Features
+- Notch Support - Place your blocks in the Assets/Notch folder and they'll become available under the "Notch Blocks" tab.
+
+Bug Fixes
+- Post FX Sliders no longer default to 0 on startup.
+- TouchDesigner Upgrade broke the OSC mapping, this is now fixed.
+- Issue where the parameter window would sometimes not update fixed.
 
 ###### 1.0.0
 

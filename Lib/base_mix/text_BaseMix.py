@@ -27,6 +27,7 @@ class BaseMix:
 		except:
 			#no reset function
 			pass
+		
 	
 		if bank == "topleft":
 			curfade = parent().par.Bankfades1
@@ -67,7 +68,11 @@ class BaseMix:
 			else:
 				op('select_'+bank+'b').par.top = self.toxStore.op(tox+'/out1')
 				parent().par.Bankfades4 = 1
-				
+		
+		v = int(op.gui.op('container_show/container_userpanel/constant1')['v1'])
+		op.gui.op('container_show/container_userpanel').UpdatePanels(v)
+		
+		
 		return
 		
 	def Unload(self, bank, side):
