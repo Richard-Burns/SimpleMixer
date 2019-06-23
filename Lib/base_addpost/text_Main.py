@@ -28,14 +28,14 @@ class Main:
 		o = op("postfxbank"+str(bank))
 		o.par.externaltox = "Lib/base_addpost/base_emptypostfx.tox"
 		o.par.reinitnet.pulse()
-		o.outputConnectors[0].connect(op('switch'+str(bank)))
+		#o.outputConnectors[0].connect(op('switch'+str(bank)))
 		return
 		
 	def Delayassign(self, bank, filepath):
 		o = op("postfxbank"+str(bank))
 		o.par.externaltox = filepath
 		o.par.reinitnet.pulse()
-		o.outputConnectors[0].connect(op('switch'+str(bank)))
+		#o.outputConnectors[0].connect(op('switch'+str(bank)))
 		cmd = "op('constant_fadebanks').par.value"+str(bank-1)+" = -1"
 		run(cmd, fromOP=me)
 		return

@@ -20,6 +20,11 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ##### Changelog
 
+###### 1.1.1
+
+Bug Fixes
+- Post FX went very very wonky after the Touch updates due to the way op connectors were changed when reinitializing .tox files. This should now be fixed.
+
 ###### 1.1.0
 
 New Features
