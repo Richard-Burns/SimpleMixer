@@ -27,6 +27,9 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 New Features
 - A new tab was added in the grid allowing you to create audio playlists.
 - The button to setup test audio was replaced with new page that allows you to configure either single test audio files or playlists.
+Known Issues
+- if the audio file is shorter than the transition weird things will happen.
+- When you make changes to the configuration of the autoMediaPlayer you sometimes need to reset it via the Reset pulse button. You can do this directly from the UI by opening the Music configuration button.
 
 ###### 1.1.1
 
