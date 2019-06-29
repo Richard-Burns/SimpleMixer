@@ -20,6 +20,14 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ##### Changelog
 
+
+
+###### Tim - 1.1.2
+
+New Features
+- A new tab was added in the grid allowing you to create audio playlists.
+- The button to setup test audio was replaced with new page that allows you to configure either single test audio files or playlists.
+
 ###### 1.1.1
 
 Bug Fixes
