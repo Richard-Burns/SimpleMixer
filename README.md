@@ -20,7 +20,12 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ##### Changelog
 
+###### Rich & Dithid - 1.1.3
 
+New Features
+- Now post FX can be turned on and off for both left and right fades via the two buttons in the Mixer section. (Thanks Dithid)
+- See audio playlist updates below (Thanks Tim)
+- Turned audio playlists off by default and reverted to an empty scene for people pulling the first time.
 
 ###### Tim - 1.1.2
 
