@@ -1,5 +1,8 @@
 # Simple Mixer
-Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in 099 stable build 16600.
+Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in 099 stable build 20625.
+
+Simple Mixer is now discontinued as far as new features go. Bug fixes will be maintained for now. Stay posted for SimpleMixer 2 which will be a whole new engine and UI...and also not so simple. 
+
 
 [Watch the explanation video](https://www.youtube.com/watch?v=P8iLnwoWyAI)
 
@@ -19,6 +22,17 @@ For audio analysis the system uses the audioanalysis component created by Greg H
 At the very top of the screen is a tab to switch into mapping mode. Currently this is the standard TouchDesigner stoner however it will likely soon be replaced by a Resolume style poly drawing and warping system. You can also choose an output monitor and toggle the output on and off.
 
 ##### Changelog
+
+###### 1.1.4
+
+New Features
+- Removed Learn buttons as they weren't reliable
+- Added in a record button to record out a moviefileout. The recording goes into the /Recording folder
+
+Bug Fixes
+- Fixed issue where SimpleMixer was running slow due to a dodgy post effect.
+- Fixed Central AB Fader referencing the wrong top in the base_mix component somehow.
+
 
 ###### Rich & Dithid - 1.1.3
 
