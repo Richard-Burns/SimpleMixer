@@ -23,6 +23,12 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ##### Changelog
 
+###### 1.1.5
+
+Bug Fixes
+- Emulate resolution issue fixed where the height was setting as the width
+- Connection issue between base mix and the post fx fixed
+
 ###### 1.1.4
 
 New Features
