@@ -8,7 +8,7 @@ class Main:
 	scripting bits and bobs.
 	
 	For more information about Simple Mixer email Richard Burns
-	richard@richard-burns.com
+	richard@richandmiyu.com
 	"""
 	def __init__(self, ownerComp):
 		self.ownerComp = ownerComp
