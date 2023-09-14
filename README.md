@@ -1,7 +1,10 @@
 # Simple Mixer
 Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in build 2021.16410.
 
-Simple Mixer is now discontinued as far as new features go. Bug fixes will be maintained for now. Stay posted for SimpleMixer 2 which will be a whole new engine and UI...and also not so simple. 
+Simple Mixers master branch is now discontinued as far as new features go for now. To check out the new experimental version have a look at the 1.5 branch.
+
+There's been a lot of one on one conversation regarding SimpleMixer and using it so I've now made a new discord in case anybody wants to discuss in a community manner:
+[Join here](https://discord.gg/FubpKXZPBK)
 
 
 [Watch the explanation video](https://www.youtube.com/watch?v=P8iLnwoWyAI)
