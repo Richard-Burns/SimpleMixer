@@ -1,8 +1,6 @@
 # Simple Mixer
 Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in build 2021.16410.
 
-Simple Mixers master branch is now discontinued as far as new features go for now. To check out the new experimental version have a look at the 1.5 branch.
-
 There's been a lot of one on one conversation regarding SimpleMixer and using it so I've now made a new discord in case anybody wants to discuss in a community manner:
 [Join here](https://discord.gg/FubpKXZPBK)
 
@@ -25,6 +23,37 @@ For audio analysis the system uses the audioanalysis component created by Greg H
 At the very top of the screen is a tab to switch into mapping mode. Currently this is the standard TouchDesigner stoner however it will likely soon be replaced by a Resolume style poly drawing and warping system. You can also choose an output monitor and toggle the output on and off.
 
 ##### Changelog
+
+
+###### 1.3.1
+
+New Features
+
+- Upgraded to TouchDesigner 2022.35280
+- replaced gui with text comp version
+- added gpu memory usage to top bar
+- postfx now get replicated on startup
+- toxs, movies, notch blocks and postfx can now be titled and it will show in the media browser. To give a component a title add a text DAT in it called name and type in whatever you want it to say.
+- some new postfx's to get people started
+- Spout/Syphon output added - see settings
+- RMTP output added - see settings
+- NDI output added - see settings
+- Video device output added - see settings
+
+Bug Fixes
+
+- fixed output dimmer toggle not working
+- fixed crash when reloading postfxs
+- removed faulty save component - ctrl + alt + s saves all
+
+
+To-do
+- Finally switch out the audioanalysis for the new one
+- re-arrange the UI to give more space for more functionality
+- Loading fixes for toxes and post fx and memory saving stuff
+- Remove replicators from toxes and movies provided the postfx update worked well
+- presets for toxes and post fx media
+- Add Warpa as a new mapping tool in the back end
 
 ###### 1.2.1
 
