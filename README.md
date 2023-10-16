@@ -24,6 +24,22 @@ At the very top of the screen is a tab to switch into mapping mode. Currently th
 
 ##### Changelog
 
+To-do
+- Finally switch out the audioanalysis for the new one
+- re-arrange the UI to give more space for more functionality
+- Loading fixes for toxes and post fx and memory saving stuff
+- Remove replicators from toxes and movies provided the postfx update worked well
+- presets for toxes and post fx media
+- Fix Warpa so it uses the same UIKit as SimpleMixer
+
+###### 1.3.2
+
+New Features
+
+- New mapping control panel to enable/disable stoner
+- New mapping tool called Warpa - See the video on how Warpa works here:
+(https://www.youtube.com/watch?v=Ig19XN008Yw)
+
 
 ###### 1.3.1
 
@@ -45,15 +61,6 @@ Bug Fixes
 - fixed output dimmer toggle not working
 - fixed crash when reloading postfxs
 - removed faulty save component - ctrl + alt + s saves all
-
-
-To-do
-- Finally switch out the audioanalysis for the new one
-- re-arrange the UI to give more space for more functionality
-- Loading fixes for toxes and post fx and memory saving stuff
-- Remove replicators from toxes and movies provided the postfx update worked well
-- presets for toxes and post fx media
-- Add Warpa as a new mapping tool in the back end
 
 ###### 1.2.1
 
