@@ -16,11 +16,11 @@ Simple Mixer uses four banks at the top left of the screen which can have clips 
 
 Toxs are shown in the panel on the bottom left. These can be loaded by placing the tox file into the Assets/Tox directory.
 
-For a tox to be compatible with Simple Mixer at the bare minimum it must have a TOP operator named 'out1' and another named 'thumb' in order to function. If your tox file is a container or has custom parameters these parameters will be exposed on the bottom right of the display when the tox is loaded into a bank and that bank is selected in the Current Visuals tab. If you want to set your tox files to the correct resolution then you can use the expressions op.output.par.w and op.output.par.h. To hook audio up to your component it's recommended to expose those parameters via custom parameters and then hook them up via the interface.
+For a tox to be compatible with Simple Mixer at the bare minimum it must have a TOP operator named 'out1' and another named 'thumb' in order to function. It can also have a text DAT called 'name' which will show up in the Asset Browser. If your tox file is a container or has custom parameters these parameters will be exposed on the bottom right of the display when the tox is loaded into a bank and that bank is selected in the Current Visuals tab. If you want to set your tox files to the correct resolution then you can use the expressions op.output.par.Resolutionw and op.output.par.Resolutionh. To hook audio up to your component it's recommended to expose those parameters via custom parameters and then hook them up via the interface.
 
 For audio analysis the system uses the audioanalysis component created by Greg Hermanovic. This has three different spectrum tabs you can select between and options for analysing particular frequencies. The CHOP itself is exposed ready to be hooked up to custom parameters directly in the interface.
 
-At the very top of the screen is a tab to switch into mapping mode. Currently this is the standard TouchDesigner stoner however it will likely soon be replaced by a Resolume style poly drawing and warping system. You can also choose an output monitor and toggle the output on and off.
+At the very top of the screen is a tab to switch into mapping mode. This has two projection mapping tools. One is the stoner from the Palette and the second is Warpa which is a polygon drawing and warping tool.
 
 ##### Changelog
 
@@ -31,6 +31,15 @@ To-do
 - Remove replicators from toxes and movies provided the postfx update worked well
 - presets for toxes and post fx media
 - Fix Warpa so it uses the same UIKit as SimpleMixer
+
+###### 1.3.3
+
+- Fixed the resolution setup so now whatever resolution is set in settings is the final output.
+- fixed bug where some post effects had their switch the wrong way around
+- Removed some random junk OPs from base_mix
+- Externalized Warpa
+
+NOTE: op.output.par.w will give the output screen size. op.output.par.Resolutionw will give the resolution in settings.
 
 ###### 1.3.2
 
