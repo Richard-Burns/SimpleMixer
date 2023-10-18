@@ -32,6 +32,21 @@ To-do
 - presets for toxes and post fx media
 - Fix Warpa so it uses the same UIKit as SimpleMixer
 
+###### 1.3.4
+
+New Features
+
+- Added Video Device In Tox
+- Added Spout In Tox
+- Added NDI In Tox
+- Added Video Stream In Tox
+- Added Webpage In Tox
+
+Bug Fixes
+
+- Fixed broken replicator in movie bin
+- Turned off spout out by default
+
 ###### 1.3.3
 
 - Fixed the resolution setup so now whatever resolution is set in settings is the final output.
