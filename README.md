@@ -34,6 +34,10 @@ To-do
 
 ###### 1.3.5
 
+Removed Features
+
+- Removed the playlist as it was erroring on startup. Happy to replace it later if anyone wants to stop it erroring.
+
 Bug Fixes
 
 - Fixed drop down menus for blend modes in new touch builds for the mixer
