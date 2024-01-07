@@ -32,6 +32,13 @@ To-do
 - presets for toxes and post fx media
 - Fix Warpa so it uses the same UIKit as SimpleMixer
 
+###### 1.3.5
+
+Bug Fixes
+
+- Fixed drop down menus for blend modes in new touch builds for the mixer
+- Fixed The asset browser thumbnails being too small when using large numbers of toxes/movies.
+
 ###### 1.3.4
 
 New Features
