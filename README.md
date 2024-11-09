@@ -34,6 +34,11 @@ To-do
 
 ###### 1.9.0
 
+New Features
+
+- New UI-Kit, supports MIDI learn functionality
+- Updated audio analysis to be the proper TouchDesigner one but using UI Kit
+
 Bug Fixes
 
 - Updated PostFX to be back to a normal replicator setup
