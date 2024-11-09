@@ -1,12 +1,12 @@
 # Simple Mixer
-Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in build 2023.11290.
 
-There's been a lot of one on one conversation regarding SimpleMixer and using it so I've now made a new discord in case anybody wants to discuss in a community manner:
+Simple Mixer is a real-time and video mixing tool built entirely in TouchDesigner. It's currently tested and working in build 2023.12000.
+
+For bug reports, questions or just general chatting about SimpleMixer feel free to join our Discord:
 [Join here](https://discord.gg/FubpKXZPBK)
 
-
+The following videos are old but the way SimpleMixer works is still very much the same so you can use them to get a gist of the software.
 [Watch the explanation video](https://www.youtube.com/watch?v=P8iLnwoWyAI)
-
 [Watch the Post FX update explanation video](https://youtu.be/DhKZlpO24m4)
 
 
@@ -32,11 +32,14 @@ To-do
 - presets for toxes and post fx media
 - Fix Warpa so it uses the same UIKit as SimpleMixer
 
+###### 1.9.0
+
+Bug Fixes
+
+- Updated PostFX to be back to a normal replicator setup
+- Temporary fix on the colour picker to not break the colour on startup
+
 ###### 1.3.5
-
-Removed Features
-
-- Removed the playlist as it was erroring on startup. Happy to replace it later if anyone wants to stop it erroring.
 
 Bug Fixes
 

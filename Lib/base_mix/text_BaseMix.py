@@ -84,3 +84,7 @@ class BaseMix:
 		op('select_'+bank+side).par.top = ""
 		
 		return
+	
+	def SwapBankOrder(self, bank, side):
+
+		return
